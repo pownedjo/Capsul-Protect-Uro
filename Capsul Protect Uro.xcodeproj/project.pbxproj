@@ -9,7 +9,14 @@
 /* Begin PBXBuildFile section */
 		17279DE81E53BE9500FDD293 /* EventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17279DE71E53BE9500FDD293 /* EventVC.swift */; };
 		17530C601E5CB92C000417A9 /* ChallengeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17530C5F1E5CB92C000417A9 /* ChallengeTableViewCell.swift */; };
-		17B22F511E5493BF00EF08ED /* ChallengesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B22F501E5493BF00EF08ED /* ChallengesVC.swift */; };
+		17A525381E688C8500785173 /* CoachingMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A525371E688C8500785173 /* CoachingMainVC.swift */; };
+		17A5253A1E688CC500785173 /* CoachingSpecificVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A525391E688CC500785173 /* CoachingSpecificVC.swift */; };
+		17A525441E69D36700785173 /* GroupChallengeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A525431E69D36700785173 /* GroupChallengeVC.swift */; };
+		17A525461E6B13C400785173 /* calendar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A525451E6B13C400785173 /* calendar_icon.png */; };
+		17A9012E1E6CA60000C7008F /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC9E591E475DB900CD8065 /* LoginManager.swift */; };
+		17A9012F1E6CA60000C7008F /* WSSEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC9E571E475DA300CD8065 /* WSSEManager.swift */; };
+		17A901311E7029C600C7008F /* bandeau_cp.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A901301E7029C600C7008F /* bandeau_cp.png */; };
+		17A901371E70BA8100C7008F /* left_arrow_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A901361E70BA8100C7008F /* left_arrow_icon.png */; };
 		17B22F531E54940200EF08ED /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B22F521E54940200EF08ED /* Challenge.swift */; };
 		17B22F581E54D6E500EF08ED /* puddles.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B22F541E54D6E500EF08ED /* puddles.png */; };
 		17B22F591E54D6E500EF08ED /* timer-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B22F551E54D6E500EF08ED /* timer-clock.png */; };
@@ -17,8 +24,6 @@
 		17B22F5B1E54D6E500EF08ED /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B22F571E54D6E500EF08ED /* water.png */; };
 		17B22F5D1E55088900EF08ED /* profile_picture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17B22F5C1E55088900EF08ED /* profile_picture.jpg */; };
 		17B22F5F1E550FFF00EF08ED /* Checkmark-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B22F5E1E550FFF00EF08ED /* Checkmark-icon.png */; };
-		17B22F611E55113900EF08ED /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B22F601E55113900EF08ED /* calendar.png */; };
-		17B22F631E55114200EF08ED /* exercise.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B22F621E55114200EF08ED /* exercise.png */; };
 		17B22F651E5519D200EF08ED /* goMarkIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B22F641E5519D200EF08ED /* goMarkIcon.png */; };
 		17B22F671E58B08600EF08ED /* WelcomeUrologieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B22F661E58B08600EF08ED /* WelcomeUrologieVC.swift */; };
 		17B22F691E58B2C300EF08ED /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B22F681E58B2C300EF08ED /* EventTableViewCell.swift */; };
@@ -43,6 +48,12 @@
 		17BAD7061E32F26700D910A8 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAD7051E32F26700D910A8 /* WelcomeVC.swift */; };
 		17BAD70B1E379EA300D910A8 /* Global Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAD70A1E379EA300D910A8 /* Global Helper.swift */; };
 		17BAD70D1E396CAD00D910A8 /* CalendarMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAD70C1E396CAD00D910A8 /* CalendarMainVC.swift */; };
+		17C072F91E6B1B1100B4035B /* exercise_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C072F61E6B1B1100B4035B /* exercise_icon.png */; };
+		17C072FA1E6B1B1100B4035B /* profil_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C072F71E6B1B1100B4035B /* profil_icon.png */; };
+		17C072FB1E6B1B1100B4035B /* targeting_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C072F81E6B1B1100B4035B /* targeting_icon.png */; };
+		17C072FF1E6B587000B4035B /* ModulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C072FE1E6B587000B4035B /* ModulesVC.swift */; };
+		17F040B51E5F90460015D8B6 /* ChallengeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F040B41E5F90460015D8B6 /* ChallengeVC.swift */; };
+		17F040B71E61F25E0015D8B6 /* ChallengeModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F040B61E61F25E0015D8B6 /* ChallengeModelController.swift */; };
 		17FC9E111E3FDEE500CD8065 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FC9E101E3FDEE500CD8065 /* QuartzCore.framework */; };
 		17FC9E461E3FF38600CD8065 /* plus_sign_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FC9E451E3FF38600CD8065 /* plus_sign_icon.png */; };
 		17FC9E4B1E3FF69200CD8065 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FC9E491E3FF69200CD8065 /* Realm.framework */; };
@@ -72,7 +83,12 @@
 /* Begin PBXFileReference section */
 		17279DE71E53BE9500FDD293 /* EventVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventVC.swift; sourceTree = "<group>"; };
 		17530C5F1E5CB92C000417A9 /* ChallengeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeTableViewCell.swift; sourceTree = "<group>"; };
-		17B22F501E5493BF00EF08ED /* ChallengesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengesVC.swift; sourceTree = "<group>"; };
+		17A525371E688C8500785173 /* CoachingMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachingMainVC.swift; sourceTree = "<group>"; };
+		17A525391E688CC500785173 /* CoachingSpecificVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachingSpecificVC.swift; sourceTree = "<group>"; };
+		17A525431E69D36700785173 /* GroupChallengeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChallengeVC.swift; sourceTree = "<group>"; };
+		17A525451E6B13C400785173 /* calendar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_icon.png; sourceTree = "<group>"; };
+		17A901301E7029C600C7008F /* bandeau_cp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bandeau_cp.png; sourceTree = "<group>"; };
+		17A901361E70BA8100C7008F /* left_arrow_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow_icon.png; sourceTree = "<group>"; };
 		17B22F521E54940200EF08ED /* Challenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		17B22F541E54D6E500EF08ED /* puddles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puddles.png; sourceTree = "<group>"; };
 		17B22F551E54D6E500EF08ED /* timer-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timer-clock.png"; sourceTree = "<group>"; };
@@ -80,13 +96,11 @@
 		17B22F571E54D6E500EF08ED /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
 		17B22F5C1E55088900EF08ED /* profile_picture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_picture.jpg; sourceTree = "<group>"; };
 		17B22F5E1E550FFF00EF08ED /* Checkmark-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark-icon.png"; sourceTree = "<group>"; };
-		17B22F601E55113900EF08ED /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
-		17B22F621E55114200EF08ED /* exercise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exercise.png; sourceTree = "<group>"; };
 		17B22F641E5519D200EF08ED /* goMarkIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goMarkIcon.png; sourceTree = "<group>"; };
 		17B22F661E58B08600EF08ED /* WelcomeUrologieVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeUrologieVC.swift; sourceTree = "<group>"; };
 		17B22F681E58B2C300EF08ED /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		17BAD6D01E317D1A00D910A8 /* Capsul Protect Uro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capsul Protect Uro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17BAD6D31E317D1A00D910A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17BAD6D31E317D1A00D910A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Helpers/AppDelegate.swift; sourceTree = "<group>"; };
 		17BAD6D81E317D1A00D910A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17BAD6DA1E317D1A00D910A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17BAD6DF1E317D1A00D910A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,16 +120,22 @@
 		17BAD7011E32F1B400D910A8 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		17BAD7031E32F1DF00D910A8 /* LandingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
 		17BAD7051E32F26700D910A8 /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
-		17BAD70A1E379EA300D910A8 /* Global Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Global Helper.swift"; sourceTree = "<group>"; };
+		17BAD70A1E379EA300D910A8 /* Global Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Global Helper.swift"; path = "Helpers/Global Helper.swift"; sourceTree = "<group>"; };
 		17BAD70C1E396CAD00D910A8 /* CalendarMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarMainVC.swift; sourceTree = "<group>"; };
+		17C072F61E6B1B1100B4035B /* exercise_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exercise_icon.png; sourceTree = "<group>"; };
+		17C072F71E6B1B1100B4035B /* profil_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profil_icon.png; sourceTree = "<group>"; };
+		17C072F81E6B1B1100B4035B /* targeting_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = targeting_icon.png; sourceTree = "<group>"; };
+		17C072FE1E6B587000B4035B /* ModulesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModulesVC.swift; sourceTree = "<group>"; };
+		17F040B41E5F90460015D8B6 /* ChallengeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeVC.swift; sourceTree = "<group>"; };
+		17F040B61E61F25E0015D8B6 /* ChallengeModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeModelController.swift; sourceTree = "<group>"; };
 		17FC9E101E3FDEE500CD8065 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		17FC9E451E3FF38600CD8065 /* plus_sign_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_sign_icon.png; sourceTree = "<group>"; };
 		17FC9E491E3FF69200CD8065 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		17FC9E4A1E3FF69200CD8065 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
-		17FC9E521E41F95400CD8065 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		17FC9E521E41F95400CD8065 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebService.swift; path = Helpers/WebService.swift; sourceTree = "<group>"; };
 		17FC9E541E4635BC00CD8065 /* EventModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModelController.swift; sourceTree = "<group>"; };
-		17FC9E571E475DA300CD8065 /* WSSEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSSEManager.swift; sourceTree = "<group>"; };
-		17FC9E591E475DB900CD8065 /* LoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		17FC9E571E475DA300CD8065 /* WSSEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WSSEManager.swift; path = Helpers/WSSEManager.swift; sourceTree = "<group>"; };
+		17FC9E591E475DB900CD8065 /* LoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginManager.swift; path = Helpers/LoginManager.swift; sourceTree = "<group>"; };
 		372302308EBE3492A987EA4C /* Pods_Capsul_Protect_Uro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Capsul_Protect_Uro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50015860557D7646F15DD943 /* Pods-Capsul Protect Uro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capsul Protect Uro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Capsul Protect Uro/Pods-Capsul Protect Uro.release.xcconfig"; sourceTree = "<group>"; };
 		86D3C2F48A0EBA9557C8C622 /* Pods-Capsul Protect Uro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capsul Protect Uro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Capsul Protect Uro/Pods-Capsul Protect Uro.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,7 +162,7 @@
 				17B22F681E58B2C300EF08ED /* EventTableViewCell.swift */,
 				17530C5F1E5CB92C000417A9 /* ChallengeTableViewCell.swift */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		17BAD6C71E317D1A00D910A8 = {
@@ -169,8 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				17BAD6D71E317D1A00D910A8 /* Main.storyboard */,
-				17BAD6D31E317D1A00D910A8 /* AppDelegate.swift */,
-				17BAD7091E379E7700D910A8 /* Helper */,
+				17BAD7091E379E7700D910A8 /* Helpers */,
 				17BAD7071E32F26C00D910A8 /* ViewControllers */,
 				17BAD7081E32F29100D910A8 /* Model */,
 				17530C5E1E5BAD9A000417A9 /* View */,
@@ -202,10 +221,14 @@
 			isa = PBXGroup;
 			children = (
 				17BAD6FB1E32EDE200D910A8 /* Logo_CP_2016.png */,
+				17A901301E7029C600C7008F /* bandeau_cp.png */,
 				17BAD6FD1E32EE6900D910A8 /* CP sticker.png */,
+				17A901361E70BA8100C7008F /* left_arrow_icon.png */,
 				17FC9E451E3FF38600CD8065 /* plus_sign_icon.png */,
-				17B22F601E55113900EF08ED /* calendar.png */,
-				17B22F621E55114200EF08ED /* exercise.png */,
+				17A525451E6B13C400785173 /* calendar_icon.png */,
+				17C072F61E6B1B1100B4035B /* exercise_icon.png */,
+				17C072F71E6B1B1100B4035B /* profil_icon.png */,
+				17C072F81E6B1B1100B4035B /* targeting_icon.png */,
 				17B22F541E54D6E500EF08ED /* puddles.png */,
 				17B22F551E54D6E500EF08ED /* timer-clock.png */,
 				17B22F561E54D6E500EF08ED /* toilet.png */,
@@ -215,7 +238,7 @@
 				17B22F5C1E55088900EF08ED /* profile_picture.jpg */,
 				17BAD6E51E32ECAD00D910A8 /* Fonts */,
 			);
-			name = Ressources;
+			path = Ressources;
 			sourceTree = "<group>";
 		};
 		17BAD7071E32F26C00D910A8 /* ViewControllers */ = {
@@ -223,34 +246,40 @@
 			children = (
 				17BAD7031E32F1DF00D910A8 /* LandingVC.swift */,
 				17BAD7051E32F26700D910A8 /* WelcomeVC.swift */,
+				17C072FE1E6B587000B4035B /* ModulesVC.swift */,
 				17B22F661E58B08600EF08ED /* WelcomeUrologieVC.swift */,
 				17BAD70C1E396CAD00D910A8 /* CalendarMainVC.swift */,
 				17279DE71E53BE9500FDD293 /* EventVC.swift */,
-				17B22F501E5493BF00EF08ED /* ChallengesVC.swift */,
+				17A525431E69D36700785173 /* GroupChallengeVC.swift */,
+				17F040B41E5F90460015D8B6 /* ChallengeVC.swift */,
+				17A525371E688C8500785173 /* CoachingMainVC.swift */,
+				17A525391E688CC500785173 /* CoachingSpecificVC.swift */,
 			);
-			name = ViewControllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		17BAD7081E32F29100D910A8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				17BAD6FF1E32EFF800D910A8 /* User.swift */,
-				17BAD7011E32F1B400D910A8 /* Event.swift */,
 				17FC9E541E4635BC00CD8065 /* EventModelController.swift */,
+				17BAD7011E32F1B400D910A8 /* Event.swift */,
+				17F040B61E61F25E0015D8B6 /* ChallengeModelController.swift */,
 				17B22F521E54940200EF08ED /* Challenge.swift */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		17BAD7091E379E7700D910A8 /* Helper */ = {
+		17BAD7091E379E7700D910A8 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				17BAD6D31E317D1A00D910A8 /* AppDelegate.swift */,
 				17BAD70A1E379EA300D910A8 /* Global Helper.swift */,
 				17FC9E521E41F95400CD8065 /* WebService.swift */,
 				17FC9E591E475DB900CD8065 /* LoginManager.swift */,
 				17FC9E571E475DA300CD8065 /* WSSEManager.swift */,
 			);
-			name = Helper;
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		389A0C5F4BF1112162F857EE /* Pods */ = {
@@ -337,17 +366,22 @@
 			files = (
 				17BAD6F81E32ECAD00D910A8 /* OpenSans-Semibold.ttf in Resources */,
 				17BAD6F91E32ECAD00D910A8 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				17A901311E7029C600C7008F /* bandeau_cp.png in Resources */,
+				17A901371E70BA8100C7008F /* left_arrow_icon.png in Resources */,
+				17C072FA1E6B1B1100B4035B /* profil_icon.png in Resources */,
 				17BAD6FC1E32EDE200D910A8 /* Logo_CP_2016.png in Resources */,
+				17C072FB1E6B1B1100B4035B /* targeting_icon.png in Resources */,
 				17FC9E461E3FF38600CD8065 /* plus_sign_icon.png in Resources */,
 				17B22F5F1E550FFF00EF08ED /* Checkmark-icon.png in Resources */,
 				17B22F5A1E54D6E500EF08ED /* toilet.png in Resources */,
 				17BAD6FE1E32EE6900D910A8 /* CP sticker.png in Resources */,
 				17BAD6F71E32ECAD00D910A8 /* OpenSans-Regular.ttf in Resources */,
+				17A525461E6B13C400785173 /* calendar_icon.png in Resources */,
 				17BAD6F41E32ECAD00D910A8 /* OpenSans-Italic.ttf in Resources */,
 				17BAD6F31E32ECAD00D910A8 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				17BAD6DB1E317D1A00D910A8 /* Assets.xcassets in Resources */,
+				17C072F91E6B1B1100B4035B /* exercise_icon.png in Resources */,
 				17B22F651E5519D200EF08ED /* goMarkIcon.png in Resources */,
-				17B22F631E55114200EF08ED /* exercise.png in Resources */,
 				17BAD6F61E32ECAD00D910A8 /* OpenSans-LightItalic.ttf in Resources */,
 				17BAD6F01E32ECAD00D910A8 /* OpenSans-Bold.ttf in Resources */,
 				17BAD6D91E317D1A00D910A8 /* Main.storyboard in Resources */,
@@ -358,7 +392,6 @@
 				17BAD6F21E32ECAD00D910A8 /* OpenSans-ExtraBold.ttf in Resources */,
 				17B22F5D1E55088900EF08ED /* profile_picture.jpg in Resources */,
 				17B22F581E54D6E500EF08ED /* puddles.png in Resources */,
-				17B22F611E55113900EF08ED /* calendar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,19 +450,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A9012E1E6CA60000C7008F /* LoginManager.swift in Sources */,
+				17A9012F1E6CA60000C7008F /* WSSEManager.swift in Sources */,
+				17C072FF1E6B587000B4035B /* ModulesVC.swift in Sources */,
 				17BAD7041E32F1DF00D910A8 /* LandingVC.swift in Sources */,
+				17F040B71E61F25E0015D8B6 /* ChallengeModelController.swift in Sources */,
 				17B22F671E58B08600EF08ED /* WelcomeUrologieVC.swift in Sources */,
 				17B22F531E54940200EF08ED /* Challenge.swift in Sources */,
+				17A5253A1E688CC500785173 /* CoachingSpecificVC.swift in Sources */,
 				17BAD7061E32F26700D910A8 /* WelcomeVC.swift in Sources */,
+				17A525441E69D36700785173 /* GroupChallengeVC.swift in Sources */,
 				17B22F691E58B2C300EF08ED /* EventTableViewCell.swift in Sources */,
 				17BAD7001E32EFF800D910A8 /* User.swift in Sources */,
+				17A525381E688C8500785173 /* CoachingMainVC.swift in Sources */,
 				17279DE81E53BE9500FDD293 /* EventVC.swift in Sources */,
 				17BAD7021E32F1B400D910A8 /* Event.swift in Sources */,
+				17F040B51E5F90460015D8B6 /* ChallengeVC.swift in Sources */,
 				17BAD6D41E317D1A00D910A8 /* AppDelegate.swift in Sources */,
 				17530C601E5CB92C000417A9 /* ChallengeTableViewCell.swift in Sources */,
 				17BAD70D1E396CAD00D910A8 /* CalendarMainVC.swift in Sources */,
 				17BAD70B1E379EA300D910A8 /* Global Helper.swift in Sources */,
-				17B22F511E5493BF00EF08ED /* ChallengesVC.swift in Sources */,
 				17FC9E531E41F95400CD8065 /* WebService.swift in Sources */,
 				17FC9E551E4635BC00CD8065 /* EventModelController.swift in Sources */,
 			);
