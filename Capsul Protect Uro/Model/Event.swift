@@ -68,7 +68,7 @@ class EventToilette: Event
 class EventBoisson: Event
 {
     let quantite: Double
-    let typeBoisson: Int
+    let typeBoisson: Int    // From drinkTypeArray in Global Helper
     
     
     init(date: Date, quantite: Double, typeBoisson: Int)

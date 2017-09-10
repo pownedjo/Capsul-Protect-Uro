@@ -19,7 +19,7 @@ class WSSEManager: NSObject {
         self.created = getTimeStamp()
         self.nonce = getNonce()?.uppercased()
         self.digest = getDigest()
-        print("created : \(created) / nonce : \(nonce) / digest : \(digest)")
+        print("created : \(String(describing: created)) / nonce : \(String(describing: nonce)) / digest : \(String(describing: digest))")
     }
     
     

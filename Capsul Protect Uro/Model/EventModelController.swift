@@ -1,6 +1,6 @@
 /** Event Model Controller
  
-   Singleton Class
+   - Singleton Class -
    Contains Every Events related to a User stored in an Array
    1 unique Events Array for each User  
  
@@ -127,6 +127,6 @@ class EventModelController: NSObject
     func getAllEvents() -> String?
     {
         // Iterate over each Event and display as String -> Add Method in Event Classees (description)
-        return "Events Count : \(self.eventsForUser?.count) - \(self.eventsForUser?.description)"
+        return "Events Count : \(String(describing: self.eventsForUser?.count)) - \(String(describing: self.eventsForUser?.description))"
     }
 }

@@ -11,7 +11,7 @@ let globalAppColor = UIColor(red: 20/255.0, green: 175/255.0, blue: 170/255.0, a
 let tabBarTintColor = UIColor(red: 240/255.0, green: 126/255.0, blue: 137/255.0, alpha: 1)
 let drinkTypeArray = ["Alcools", "Boissons énergisantes", "Boissons lactées", "Cafés", "Cocktails non alcoolisés", "Eaux", "Jus de fruit", "Jus de légumes", "Limonades", "Maté", "Nectars de fruits", "Sodas", "Sirops", "Thés", "Tisanes"]
 
-// Coaching Texts (Lorrem ipsum .. for now)
+// Coaching Texts (Lorrem ipsum .. for now, ask PA for infos)
 let kegelExercicesAdvices: String = ""
 let mictionsExercicesAdvices: String = ""
 

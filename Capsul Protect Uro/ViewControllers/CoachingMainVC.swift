@@ -52,5 +52,4 @@ class CoachingMainVC: UIViewController
     {
         dismiss(animated: true, completion: nil)    // Go back to ModulesVC
     }
-    
 }

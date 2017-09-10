@@ -17,7 +17,7 @@ class Challenge: NSObject
     }
     
     
-    // Method in WebService.swift ? Maybe..
+    // Method in WebService.swift ?
     func getDatasFromWebService()
     {
         

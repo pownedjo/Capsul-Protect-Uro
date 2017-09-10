@@ -9,6 +9,7 @@ class User: NSObject
     let profilePic: UIImage
     
     
+    /* INTIALIZER */
     init(name: String, email: String, id: String, profilePic: UIImage)
     {
         self.name = name

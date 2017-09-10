@@ -115,14 +115,14 @@ extension WelcomeUrologieVC: UINavigationControllerDelegate, UIImagePickerContro
         profileImageView.image = chosenImage
         dismiss(animated: true, completion: nil)
         
-        // Store Image Picked on the Device :
+        // Store Image Picked on the Device //
         
         // Create unique string for image Path
         /*let imageName = "" // your image name here
         let imagePath: String = "\(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0])/\(imageName).png"
         let imageUrl: URL = URL(fileURLWithPath: imagePath)
  
-        // Actual storing :
+        // Storing
         let newImage: UIImage = // create your UIImage here
         try? UIImagePNGRepresentation(newImage)?.write(to: imageUrl) */
     }

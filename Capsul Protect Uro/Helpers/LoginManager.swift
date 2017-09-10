@@ -5,6 +5,7 @@ import Alamofire
 
 class LoginManager: NSObject {
     
+    /*
     static func hashPassword(pass: String, salt: String) -> String?
     {
         let iterations = 5000
@@ -20,11 +21,10 @@ class LoginManager: NSObject {
         let cryptedPass = digest.toBase64()
         return cryptedPass
     }
-    
+ 
     
     static func login(username: String, password: String, completion: @escaping (Bool, AnyObject?) -> ()) {
-        
-        /* APIRequest.getSalt(userName: username).send { (success, result) in
+         APIRequest.getSalt(userName: username).send { (success, result) in
             if let result = result as? SaltResult, let salt = result.salt, success == true {
                 print("result : \(salt)")
                 
@@ -66,6 +66,6 @@ class LoginManager: NSObject {
             {
                 completion(false, result)
             }
-        }*/
-    }
+        }
+    }*/
 }

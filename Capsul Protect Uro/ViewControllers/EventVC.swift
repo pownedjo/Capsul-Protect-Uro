@@ -72,7 +72,7 @@ class EventVC: UITableViewController
             
         case 1:         // Fuite
             
-            /** SECTION IMPPRTANCES FUITES A FAIRE **/
+            /** SECTION IMPORTANCES FUITES A FAIRE **/
  
             let fuiteEvent = EventFuites(date: datePicker.date, importance: 2, circonstances: "\(changedCirconstancesFuite.titleForSegment(at: getSelectedSegment(segmentedControl: changedCirconstancesFuite))!)")
             save(event: fuiteEvent)
@@ -136,7 +136,7 @@ class EventVC: UITableViewController
 
 
 
-/* HIDE SECTIONS FUNCTION OF EVENT TYPE SELECTED IN SEGMENTED CONTROL */
+/* HIDE TABLE VIEW SECTIONS FUNCTION OF EVENT TYPE SELECTED IN SEGMENTED CONTROL */
 extension EventVC
 {
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat

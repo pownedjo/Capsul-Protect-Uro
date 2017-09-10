@@ -33,8 +33,6 @@ class WelcomeVC: UIViewController
         {
             // Login Request TEST :
             WebService.loginRequest(username: "tetej171@gmail.com", password: "12345678Ab")
-            
-
         }
         else
         {

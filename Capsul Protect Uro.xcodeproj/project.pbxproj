@@ -52,33 +52,27 @@
 		17C072FA1E6B1B1100B4035B /* profil_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C072F71E6B1B1100B4035B /* profil_icon.png */; };
 		17C072FB1E6B1B1100B4035B /* targeting_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C072F81E6B1B1100B4035B /* targeting_icon.png */; };
 		17C072FF1E6B587000B4035B /* ModulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C072FE1E6B587000B4035B /* ModulesVC.swift */; };
+		17D474571F02836500855722 /* Capsul_Protect_UroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D474561F02836500855722 /* Capsul_Protect_UroTests.swift */; };
+		17D4745F1F0283B900855722 /* EventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4745E1F0283B900855722 /* EventTests.swift */; };
+		17D474611F0283CD00855722 /* ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D474601F0283CD00855722 /* ChallengeTests.swift */; };
 		17F040B51E5F90460015D8B6 /* ChallengeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F040B41E5F90460015D8B6 /* ChallengeVC.swift */; };
 		17F040B71E61F25E0015D8B6 /* ChallengeModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F040B61E61F25E0015D8B6 /* ChallengeModelController.swift */; };
 		17FC9E111E3FDEE500CD8065 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FC9E101E3FDEE500CD8065 /* QuartzCore.framework */; };
 		17FC9E461E3FF38600CD8065 /* plus_sign_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FC9E451E3FF38600CD8065 /* plus_sign_icon.png */; };
-		17FC9E4B1E3FF69200CD8065 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FC9E491E3FF69200CD8065 /* Realm.framework */; };
-		17FC9E4C1E3FF69200CD8065 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 17FC9E491E3FF69200CD8065 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		17FC9E4D1E3FF69200CD8065 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FC9E4A1E3FF69200CD8065 /* RealmSwift.framework */; };
-		17FC9E4E1E3FF69200CD8065 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 17FC9E4A1E3FF69200CD8065 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		17FC9E531E41F95400CD8065 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC9E521E41F95400CD8065 /* WebService.swift */; };
 		17FC9E551E4635BC00CD8065 /* EventModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC9E541E4635BC00CD8065 /* EventModelController.swift */; };
 		1BD1211977CF6CE085471944 /* Pods_Capsul_Protect_Uro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372302308EBE3492A987EA4C /* Pods_Capsul_Protect_Uro.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		17FC9E4F1E3FF69300CD8065 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				17FC9E4E1E3FF69200CD8065 /* RealmSwift.framework in Embed Frameworks */,
-				17FC9E4C1E3FF69200CD8065 /* Realm.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXContainerItemProxy section */
+		17D474591F02836500855722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17BAD6C81E317D1A00D910A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17BAD6CF1E317D1A00D910A8;
+			remoteInfo = "Capsul Protect Uro";
 		};
-/* End PBXCopyFilesBuildPhase section */
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		17279DE71E53BE9500FDD293 /* EventVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventVC.swift; sourceTree = "<group>"; };
@@ -126,6 +120,11 @@
 		17C072F71E6B1B1100B4035B /* profil_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profil_icon.png; sourceTree = "<group>"; };
 		17C072F81E6B1B1100B4035B /* targeting_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = targeting_icon.png; sourceTree = "<group>"; };
 		17C072FE1E6B587000B4035B /* ModulesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModulesVC.swift; sourceTree = "<group>"; };
+		17D474541F02836500855722 /* Capsul Protect UroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Capsul Protect UroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D474561F02836500855722 /* Capsul_Protect_UroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capsul_Protect_UroTests.swift; sourceTree = "<group>"; };
+		17D474581F02836500855722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D4745E1F0283B900855722 /* EventTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTests.swift; sourceTree = "<group>"; };
+		17D474601F0283CD00855722 /* ChallengeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeTests.swift; sourceTree = "<group>"; };
 		17F040B41E5F90460015D8B6 /* ChallengeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeVC.swift; sourceTree = "<group>"; };
 		17F040B61E61F25E0015D8B6 /* ChallengeModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeModelController.swift; sourceTree = "<group>"; };
 		17FC9E101E3FDEE500CD8065 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -146,10 +145,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17FC9E4B1E3FF69200CD8065 /* Realm.framework in Frameworks */,
 				17FC9E111E3FDEE500CD8065 /* QuartzCore.framework in Frameworks */,
-				17FC9E4D1E3FF69200CD8065 /* RealmSwift.framework in Frameworks */,
 				1BD1211977CF6CE085471944 /* Pods_Capsul_Protect_Uro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D474511F02836500855722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +175,7 @@
 				17FC9E491E3FF69200CD8065 /* Realm.framework */,
 				17FC9E4A1E3FF69200CD8065 /* RealmSwift.framework */,
 				17BAD6D21E317D1A00D910A8 /* Capsul Protect Uro */,
+				17D474551F02836500855722 /* Capsul Protect UroTests */,
 				17BAD6D11E317D1A00D910A8 /* Products */,
 				389A0C5F4BF1112162F857EE /* Pods */,
 				A2178FBF2995A16459D3C128 /* Frameworks */,
@@ -181,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				17BAD6D01E317D1A00D910A8 /* Capsul Protect Uro.app */,
+				17D474541F02836500855722 /* Capsul Protect UroTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -282,6 +288,17 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		17D474551F02836500855722 /* Capsul Protect UroTests */ = {
+			isa = PBXGroup;
+			children = (
+				17D474561F02836500855722 /* Capsul_Protect_UroTests.swift */,
+				17D4745E1F0283B900855722 /* EventTests.swift */,
+				17D474601F0283CD00855722 /* ChallengeTests.swift */,
+				17D474581F02836500855722 /* Info.plist */,
+			);
+			path = "Capsul Protect UroTests";
+			sourceTree = "<group>";
+		};
 		389A0C5F4BF1112162F857EE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,7 +330,6 @@
 				17BAD6CE1E317D1A00D910A8 /* Resources */,
 				3ECD095DDF619DDA3ADC7361 /* [CP] Embed Pods Frameworks */,
 				AA5D5A65537CDA0EFBA18A16 /* [CP] Copy Pods Resources */,
-				17FC9E4F1E3FF69300CD8065 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,20 +340,43 @@
 			productReference = 17BAD6D01E317D1A00D910A8 /* Capsul Protect Uro.app */;
 			productType = "com.apple.product-type.application";
 		};
+		17D474531F02836500855722 /* Capsul Protect UroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D4745D1F02836500855722 /* Build configuration list for PBXNativeTarget "Capsul Protect UroTests" */;
+			buildPhases = (
+				17D474501F02836500855722 /* Sources */,
+				17D474511F02836500855722 /* Frameworks */,
+				17D474521F02836500855722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17D4745A1F02836500855722 /* PBXTargetDependency */,
+			);
+			name = "Capsul Protect UroTests";
+			productName = "Capsul Protect UroTests";
+			productReference = 17D474541F02836500855722 /* Capsul Protect UroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		17BAD6C81E317D1A00D910A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Capsul Protect";
 				TargetAttributes = {
 					17BAD6CF1E317D1A00D910A8 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9463355TE8;
+						DevelopmentTeam = GGUZDTDYF9;
 						ProvisioningStyle = Automatic;
+					};
+					17D474531F02836500855722 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Manual;
+						TestTargetID = 17BAD6CF1E317D1A00D910A8;
 					};
 				};
 			};
@@ -355,6 +394,7 @@
 			projectRoot = "";
 			targets = (
 				17BAD6CF1E317D1A00D910A8 /* Capsul Protect Uro */,
+				17D474531F02836500855722 /* Capsul Protect UroTests */,
 			);
 		};
 /* End PBXProject section */
@@ -392,6 +432,13 @@
 				17BAD6F21E32ECAD00D910A8 /* OpenSans-ExtraBold.ttf in Resources */,
 				17B22F5D1E55088900EF08ED /* profile_picture.jpg in Resources */,
 				17B22F581E54D6E500EF08ED /* puddles.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D474521F02836500855722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +522,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		17D474501F02836500855722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D4745F1F0283B900855722 /* EventTests.swift in Sources */,
+				17D474571F02836500855722 /* Capsul_Protect_UroTests.swift in Sources */,
+				17D474611F0283CD00855722 /* ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17D4745A1F02836500855722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17BAD6CF1E317D1A00D910A8 /* Capsul Protect Uro */;
+			targetProxy = 17D474591F02836500855722 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		17BAD6D71E317D1A00D910A8 /* Main.storyboard */ = {
@@ -585,7 +650,8 @@
 			baseConfigurationReference = 86D3C2F48A0EBA9557C8C622 /* Pods-Capsul Protect Uro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9463355TE8;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GGUZDTDYF9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -595,6 +661,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CapsulProtect.Capsul-Protect-Uro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -604,7 +671,8 @@
 			baseConfigurationReference = 50015860557D7646F15DD943 /* Pods-Capsul Protect Uro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9463355TE8;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GGUZDTDYF9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -614,7 +682,42 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CapsulProtect.Capsul-Protect-Uro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		17D4745B1F02836500855722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Capsul Protect UroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TETE.Capsul-Protect-UroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capsul Protect Uro.app/Capsul Protect Uro";
+			};
+			name = Debug;
+		};
+		17D4745C1F02836500855722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Capsul Protect UroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TETE.Capsul-Protect-UroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capsul Protect Uro.app/Capsul Protect Uro";
 			};
 			name = Release;
 		};
@@ -635,6 +738,15 @@
 			buildConfigurations = (
 				17BAD6E31E317D1A00D910A8 /* Debug */,
 				17BAD6E41E317D1A00D910A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D4745D1F02836500855722 /* Build configuration list for PBXNativeTarget "Capsul Protect UroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D4745B1F02836500855722 /* Debug */,
+				17D4745C1F02836500855722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
